@@ -17,7 +17,7 @@
   "license": "ISC",
   "repository": "cornedor/react-native-video-player",
   "peerDependencies": {
-    "react-native": "*",
+    "react-native": "^0.36.1",
     "react-native-vector-icons": "^2.1.0",
     "react-native-video": "^0.9.0"
   },
