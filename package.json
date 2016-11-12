@@ -1,6 +1,6 @@
 {
   "name": "react-native-video-player",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "description": "A video player for React Native with controls",
   "main": "index.js",
   "scripts": {
@@ -13,9 +13,7 @@
     "ios",
     "android"
   ],
-  "author": "Corné Dorrestijn <contact@corne.info>",
   "license": "ISC",
-  "repository": "cornedor/react-native-video-player",
   "dependencies": {
     "react-native": "^0.36.1",
     "react-native-vector-icons": "^2.1.0",
