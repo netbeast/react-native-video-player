@@ -8,7 +8,7 @@
     "lint": "eslint ."
   },
   "author": "Corné Dorrestijn <contact@corne.info>",
-  "maintainers: [
+  "maintainers": [
     "Netbeast Engineering <developers@netbeast.co>",
     "Corné Dorrestijn <contact@corne.info>"
   ],
