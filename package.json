@@ -7,6 +7,11 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint ."
   },
+  "author": "Corné Dorrestijn <contact@corne.info>",
+  "maintainers: [
+    "Netbeast Engineering <developers@netbeast.co>",
+    "Corné Dorrestijn <contact@corne.info>
+  ],
   "keywords": [
     "react-component",
     "react-native",
