@@ -1,6 +1,6 @@
 import React, { Component, PropTypes } from 'react';
 import { View, StyleSheet, Image, TouchableOpacity } from 'react-native';
-import Icon from 'react-native-vector-icons/MaterialIcons';
+import Icon from 'react-native-vector-icons/Ionicons';
 import Video from 'react-native-video'; // eslint-disable-line
 
 const styles = StyleSheet.create({
@@ -166,7 +166,7 @@ export default class VideoPlayer extends Component {
           style={[styles.playButton, customStyles.playButton]}
           onPress={this.onStartPress}
         >
-          <Icon style={[styles.playArrow, customStyles.playArrow]} name="play-arrow" size={42} />
+          <Icon style={[styles.playArrow, customStyles.playArrow]} name="md-play" size={42} />
         </TouchableOpacity>
       </Image>
     );
@@ -206,7 +206,7 @@ export default class VideoPlayer extends Component {
         >
           <Icon
             style={[styles.playControl, customStyles.controlIcon, customStyles.playIcon]}
-            name={this.state.isPlaying ? 'pause' : 'play-arrow'}
+            name={this.state.isPlaying ? 'md-pause' : 'md-play'}
             size={32}
           />
         </TouchableOpacity>
@@ -215,7 +215,7 @@ export default class VideoPlayer extends Component {
           <TouchableOpacity onPress={this.onMutePress} style={customStyles.controlButton}>
             <Icon
               style={[styles.extraControl, customStyles.controlIcon]}
-              name={this.state.isMuted ? 'volume-off' : 'volume-up'}
+              name={this.state.isMuted ? 'md-volume-off' : 'md-volume-up'}
               size={24}
             />
           </TouchableOpacity>
